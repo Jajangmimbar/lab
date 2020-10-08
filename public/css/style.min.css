@@ -1,0 +1,148 @@
+body{
+  background-color: #fff !important;
+}
+.breadcrumb{
+  background-color: #fff !important;
+}
+.panel-header-sm{
+    height: 135px;
+}
+.panel-header{
+    height: 160px;
+    padding-top: 80px;
+    padding-bottom: 45px;
+    background: linear-gradient(90deg,#0c2646 0,#204065 60%,#2a5788);
+    position: relative;
+    overflow: hidden;
+}
+.navbar-brand, .nav-link{
+    color: #fff !important;
+}
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #2a5788;
+  }
+  *::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+  }
+  *::-webkit-scrollbar-track {
+    background: #191919;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: #2a5788;
+    border-radius: 20px;
+    border: 1px solid #2a5788;
+  }
+.main-content{
+    position: relative;
+}
+.header-text{
+    /* font-size: 40px; */
+    font-size: 28px;
+    text-align: center;
+    margin: 20px 0;
+    color: #fff;
+    text-shadow: 3px 0px 5px grey;
+    font-family: Lato Bold;
+  }
+  .bb{
+    border-bottom: 1px solid #2a5788;
+    margin: 0 20px;
+      /* border-bottom: 1px solid rgba(180, 180, 180, 0.3); */
+  }
+  .sidebar .logo:after{
+      background-color: #2a5788 !important;
+  }
+  .sidebar .user:before{
+    background-color: #2a5788 !important;
+  }
+  .m30{
+    margin: 0 30px;
+  }
+  .p100{
+    padding: 100px 20px !important;
+  }
+  .p9{
+    padding-top: 9px;
+  }
+  .main-panel > .footer {
+    border: 0 !important;
+  }
+
+  .table thead th{
+    border-top-width: 1px !Important;
+    background-color: #2a5788 !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .btn a{
+    color: #fff !important;
+  }
+  .sidebar .logo a.logo-normal{
+    margin: 0 16px;
+  }
+  .tanggal{
+      float: right;
+      margin: 5px 20px;
+      font-size: 20px;
+      color: #ad0606;
+      font-weight: 700;
+      font-family: monospace;
+  }
+  .table thead tr th{
+    font-weight: 700 !important;
+  }
+  .card .table tr td{
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+
+  .col-form-label{
+    font-size: 16px !important;
+  }
+  .bmd-label-floating{
+    font-size: 16px !important;
+  }
+.p20{
+  padding: 20px !important;
+}
+.required{
+  color: red;
+}
+.text-disable{
+  font-weight: 700;
+  color: red;
+}
+.fr{
+  float: right;
+}
+.sidebar .user .photo img{
+  height: 100%;
+}
+.sidebar-normal{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.nones{
+  display: none !important;
+}
+.tt{
+  text-transform: uppercase;
+}
+.fl{
+  float: left;
+}
+.pt20{
+  padding-top: 20px;
+}
+.none{
+  display: none !important;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.stats{
+  font-size: 16px !important;
+  font-style: italic;
+}
